@@ -1,25 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
+import ProjectsPage from './projects/ProjectsPage';
+import Hello from './projects/Hello';
+import HelloClass from './projects/HelloClass'
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      {/* <ProjectsPage /> */}
+      {/* <Hello name = "Abc" enthusiamLevel = {0}/> */}
+      <HelloClass name = "Abc" enthusiasmLevel = {0} />
     </div>
+      
   );
 }
 

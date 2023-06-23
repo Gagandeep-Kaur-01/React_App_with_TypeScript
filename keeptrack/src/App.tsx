@@ -7,9 +7,9 @@ import './App.css';
 function App() {
   return (
     <div className="container">
-      {/* <ProjectsPage /> */}
+      <ProjectsPage />
       {/* <Hello name = "Abc" enthusiamLevel = {0}/> */}
-      <HelloClass name = "Abc" enthusiasmLevel = {0} />
+      {/* <HelloClass name = "Abc" enthusiasmLevel = {0} /> */}
     </div>
       
   );
